@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+        integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+
+    <style>
+        .page_01 {
+            margin-top: 50px;
+        }
+
+        .AA {
+            border-bottom: 1px solid black;
+        }
+
+        .input_test {
+            border: none;
+            outline: 0;
+        }
+
+        .input_test:focus {
+            border: none;
+        }
+    </style>
+
+</head>
+
+<body>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+        integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+        integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+        crossorigin="anonymous"></script>
+
+
+    <nav id="navbar-example2" class="navbar navbar-light bg-light">
+        <div class="container">
+            <!-- Content here -->
+            <a class="navbar-brand" href="#">START BOOTSTRAP</a>
+            <ul class="nav nav-pills">
+                <li class="nav-item">
+                    <a class="nav-link" href="#fat">PORTFOLIO</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#mdo">ABOUT</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button"
+                        aria-haspopup="true" aria-expanded="false">CONTACT</a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="#one">one</a>
+                        <a class="dropdown-item" href="#two">two</a>
+                        <div role="separator" class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#three">three</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <header>
+        <div class="container d-flex align-items-center flex-column ">
+            <img src="/img/Photo.jpg" alt="">
+            <h1 class="text-uppercase">Start Bootstrap</h1>
+            <h4>Graphic Artist - Web Designer - Illustrator</h4>
+        </div>
+    </header>
+
+    <section class="page_01">
+        <div data-spy="scroll" data-target="#navbar-example2" data-offset="0">
+            <div class="container">
+                <h2 class="text-center">PORTFOLIO</h2>
+
+                <div class="row text-center d-flex justify-content-around">
+                    <div class="col-lg-3 col-md-2">我是文字A</div>
+                    <div class="col-lg-3 col-md-2">我是文字B</div>
+                    <div class="col-lg-3 col-md-2">我是文字C</div>
+                </div>
+                <div class="row text-center d-flex justify-content-around">
+                    <div class="col-lg-3 col-md-2">我是文字D</div>
+                    <div class="col-lg-3 col-md-2">我是文字E</div>
+                    <div class="col-lg-3 col-md-2">我是文字F</div>
+                </div>
+                <!-- <h4 id="fat">@fat</h4>
+                <p>...</p>
+                <h4 id="mdo">@mdo</h4>
+                <p>...</p>
+                <h4 id="one">one</h4>
+                <p>...</p>
+                <h4 id="two">two</h4>
+                <p>...</p>
+                <h4 id="three">three</h4>
+                <p>...</p> -->
+            </div>
+        </div>
+    </section>
+
+
+    <section class="page_01">
+        <div class="container">
+            <h2 class="text-center">ABOUT</h2>
+            <div class="row">
+                <div class="col-lg-6 col-md-12">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci officia corporis ratione quas
+                    delectus voluptatem neque, quos consequatur, provident assumenda repellendus sequi. Quo asperiores
+                    sint ad alias nostrum beatae inventore.
+                </div>
+                <div class="col-lg-6 col-md-12">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam voluptatem suscipit, rerum repudiandae
+                    voluptatum ea repellat nobis excepturi fugit, reprehenderit consequuntur quo perferendis, ut minus
+                    iste autem recusandae consequatur sed.
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="page_01">
+        <div class="container">
+            <div class="d-flex align-items-center flex-column">
+                <h2 class="text-center">CONTACT ME</h2>
+
+                <div class="col-8">
+                    <div class="AA">
+                        <label for="NAME"></label>
+                        <input class="w-100 input_test" type="text">
+                    </div>
+
+                    <div class="AA">
+                        <label for="NAME"></label>
+                        <input class="w-100 input_test" type="">
+                    </div>
+
+                    <div class="AA">
+                        <label for="NAME"></label>
+                        <input class="w-100 input_test" type="">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <footer class="page_01">
+        <div class="container ">
+            <h2 class="text-center">FOOTER</h1>
+        </div>
+    </footer>
+
+
+
+
+</body>
+
+</html>
